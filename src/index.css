@@ -148,19 +148,23 @@ footer {
 
 
 .character {
-  background-color: #eaeaea;
+  
+  background-color: #c3adca;
+  border: 1px solid black;
   color: #000;
   padding-inline-start: 0;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  border-radius: 5px;
+  
 }
 
 .character img {
+  border-radius: 8px;
   max-height: 100px;
   grid-area: image;
 }
 
 .charList{
+  
   padding-inline-start: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
